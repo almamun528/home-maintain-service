@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body h1{
+    font-size: 45px;
+}
+body h2{
+    font-size: 35px;
+}
+body h3{
+    font-size: 25;
+}
+body p{
+    font-size: 16px;
+}
+#globalButton{
+    background-color: #cb4154;
+    padding: 16px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+/* Header Start TOP BAR */
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    color: aliceblue;
+}
+.nabTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.692);
+}
+/* Social Media Icon Style TOP BAR */
+.SocialMedia i{
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+.SocialMedia i:hover{
+   color: #cb4154;
+}
+/* Header Top */
+.bottomHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.navePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Hero Section 1 Start  */
+
+.heroSection1{
+    background-image: url(./img/hero-section-min.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.overlayOfHero1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+.heroContent{
+     display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20%;
+    padding: 10px 30px;
+}
+.heroContent p{
+    margin: 20px 0px;
+}
+
+/* callToActionBox */
+.callToActionBox{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -90px;
+    left: 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1;
+
+} 
+.leftContent{
+    margin-right: 10px;
+}
+.leftContent p{
+    padding: 15px 0px;
+}
+.right{
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+.right Input{
+    padding: 20px 16px;
+    border: 1px solid crimson;
+    margin: 7px;
+}
+.right Button{
+    margin-left: 10px;
+}
+/* AboutCompany Start */
+.AboutCompany{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    column-gap: 80px;
+    height: auto;
+    width: 100%;
+    background-color: #fcfcfc;
+    margin-top: 80px;
+    padding: 60px 30px;
+}
+#imgNumber1{
+    height: 500px;
+    width: auto;
+    transition: transform 1.3s ease; 
+    border-radius: 5px;
+
+}
+#imgNumber1:hover{
+    margin-top: -6px;
+    transition-duration: 1.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.356);
+    
+}
+#ImgNumber2{
+    height: 300px;
+    width: auto;
+    transition: transform 1.3s ease; 
+    border-radius: 5px;
+    float: right;
+    margin-right: -30px;
+    margin-top: -40%;
+    position: relative;
+}
+#ImgNumber2:hover{
+    margin-bottom: -6px;
+    transition-duration: 1.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.356);
+    
+}
+.RihtSideContent{
+    padding: 0px 30px;
+}
+.RihtSideContent button{
+   margin: 20px 0px;
+}
+.RihtSideContent .colorOFCOMPANY{
+    color: #cb4154;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.RihtSideContent .peragraphOFCompany{
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1.3px;
+    margin: 20px 0px;
+}
+.RihtSideContent i{
+   color: #cb4154;
+   /* margin-right: 5px; */
+   font-size: 18px;
+}
+
+/* Four Boxes Start */
+.FourBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    
+}
+.box1{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+}
+.box2{
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+.box3{
+    
+    background-color: #131d3b;
+    text-align: center;
+    color: white;
+}
+.box4{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+}
+/* padding for Boxes */
+.boxpadding{
+    padding: 40px 80px;
+}
+/* padding for boxes */
+
+/* Our Service Section */
+
+.ourService .Title{
+    padding-top: 80px ;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.ourService{
+    height: 100%;
+    width: auto;
+    background-color: #000000;
+    color: #FFF;
+    padding: 20px 30px;
+    margin-top: -60px;
+    padding-bottom: 30px;
+}
+
+.IMGSERVICEBOXES{
+    height: 300px;
+    width: 30%;
+}
+
+.ThreeImagesContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ThreeImagesContent img{
+    height: 250px;
+    margin: 15px 0px;
+
+}
+.ThreeImagesContent h3{
+    margin-bottom: 15px;
+
+}
+.ThreeImagesContent h6{
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 300;
+    word-spacing: 3px;
+
+}
+.ThreeImagesContent h6:hover{
+    color: #cb4154;
+
+}
+
+/* Additional Services */
+.AdditionalServices{
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px 50px;
+}
+.LeftSideAditionalServices h1{
+    padding: 15px 0px;
+    font-size: 50px;
+}
+.LeftSideAditionalServices ul{
+    list-style: none;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.LeftSideAditionalServices ul li{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: arial;
+}
+.LeftSideAditionalServices p{
+    margin: 15px 0px;
+    width: 90%;
+    line-height: 25px;
+}
+
+/* Six Icon Boxes */
+.sixIconboxes{
+    background-color: #eee;
+    padding: 40px 0px;
+}
+.sixboxesTitle{
+    margin-left: 50px;
+    line-height: 50px;
+}
+.IconboxesContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.IconboxesContent p{
+    width: 80%;
+    margin: auto;
+    line-height: 20px;
+}
+.sixIconboxes h2{
+    color: #cb4154;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.paddingForSixBox{
+    padding: 50px 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px #eee;
+    border-radius: 10px;
+}
+.IconboxesContent i{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.IconboxesContent i:hover{
+    color: #cb4154;
+}
+
+/* Members Section Starts From Here */
+.membersSection{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    padding: 40px 20px;
+}
+.Topleft h2{
+    font-size: 25px;
+    color: #cb4154;
+    padding-bottom: 20px;
+}
+.membersSectionTopArea{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.membersSectionTopArea img{
+    height: 80px;
+    width: auto;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+.contentOfmiddle{
+    float: right;
+    margin: 20px 15px;
+}
+
+/* Middle Title Part */
+.MemberSectionTitles{
+    padding: 50px 0px;
+    color: #131d3b;
+    text-align: center;
+}
+.MemberSectionTitles p{
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* Member Box Card area start */
+.membersCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 25px;
+    gap: 20px;
+    text-align: center;
+
+}
+
+/* Card Backround and Box Style is copied from <paddingForSixBox> this calss {350 number Css code style} */
+
+.membersCard i,h3,p{
+    margin: 5px 0px;
+}
+.membersCard p{
+    width: 70%;
+   margin: auto;
+   padding-top: 5px;
+   line-height: 25px;
+   font-weight: 100;
+}
+.membersCard i{
+    color: #cb4154;
+}
+
+
+/* Footer IS Start From here  */
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #131d3b;
+    color: #fff;
+    
+}
+/* footer Icon */
+.footerIcons{
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.footerAbout , .QuickLinks , .OurServiceFooter , .FreeEstimate{
+    width: 25%;
+}
+.footerAbout , .QuickLinks , .OurServiceFooter , .FreeEstimate p{
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.QuickLinks{
+    margin-left: 100px;
+}
+.QuickLinks, .OurServiceFooter p{
+    margin-top: 10px;
+}
+.QuickLinks p:hover{
+    color: #cb4154;
+}
+.OurServiceFooter p:hover{
+   color: #cb4154;
+}
+/* CopyWrite Part start from Here */
+.CopyrightPart{
+    color: #FFF;
+    background-color: #131d3b;
+    border-top: 1px solid rgba(128, 128, 128, 0.288);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+}
+
+/* <!-- Dont know what to Start With? Start this section --> */
+.mainContentArea{
+    background-image:url('./img/quotes-min.jpg');
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+.mainContentOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00000093;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-content: center;
+    color:white;
+    line-height: 55px;
+}
+
+/* Content Box Area Start // Form Section */
+
+.contactSection{
+    background-color:#fafafa ;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+}
+.contactSection h3{
+    color: #cb4154;
+}
+/* Left Side */
+.contactDetailesLeft p{
+    width: 70%;
+    line-height: 30px;
+    
+}
+.contactDetailesLeft h1{
+    margin: 20px 0px;
+    font-size: 30px;
+    color: #131d3b;
+
+}
+.lineGrayColor{
+    height: 2px;
+    width: 100px;
+    background-color: gray;
+    margin: 20px 0px;
+}
+/* Left Side Ends */
+
+/* Form Section  */
+.FormSecction {
+    /* width: 60%; */
+    padding: 20px 18px;
+    margin-top: -140px;
+    z-index: 1;
+    background-color: #fefefe;
+}
+.FormSecction ul li{
+    list-style: none;
+}
+.FormSecction input{
+    padding: 10px 180px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    margin-top: 5px;
+}
+#InputBoxMassageArea{
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
